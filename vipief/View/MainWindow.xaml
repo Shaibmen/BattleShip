@@ -4,23 +4,35 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:vipief"
-        DataContext="{Binding RelativeSource={RelativeSource Self}}"
         mc:Ignorable="d"
-        Title="MainWindow" Height="239" Width="547">
+        Title="MainWindow" Height="350" Width="500">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+        
+        <Label Content="Сумма:" Grid.Row="0" Grid.ColumnSpan="1"/>
+        <TextBox x:Name="AmountTextBox" Grid.Row="0" Grid.Column="1" Text="{Binding AmountVvod}"/>
 
-        <DataGrid CanUserAddRows="False" ItemsSource="{Binding Colours}" SelectedItem="{Binding Selected}"/>
+        <Label Content="Из:" Grid.Row="1"/>
+        <ComboBox x:Name="FromCurrencyComboBox" Grid.Row="1" Grid.Column="1" ItemsSource="{Binding Values}" SelectedItem="{Binding SelectedItem}"/>
 
-        <StackPanel Grid.Column="1">
-            <TextBlock Text="Название:" TextAlignment="Center"/>
-            <TextBox Text="{Binding Selected.Name}"/>
-            <TextBlock Text="HEX значение:" TextAlignment="Center"/>
-            <TextBox Text="{Binding Selected.Hexademical}"/>
-        </StackPanel>
+        <Label Content="В:" Grid.Row="2"/>
+        <ComboBox x:Name="ToCurrencyComboBox" Grid.Row="2" Grid.Column="1" ItemsSource="{Binding Values}" SelectedItem="{Binding SelectedItem1}"/>
+
+        <Label Content="Результат:" Grid.Row="3"/>
+        <TextBox x:Name="ResultTextBox" Grid.Row="3" Grid.Column="1" IsReadOnly="True" Text="{Binding AmountVivod}"/>
+
+        <Button Content="Конвертировать" Grid.Row="4" Grid.ColumnSpan="2" Command="{Binding AddCommand}"/>
+        <Button Content="Следующая страница" Grid.Row="5" Command="{Binding NextWindow}"/>
     </Grid>
 </Window>
-    

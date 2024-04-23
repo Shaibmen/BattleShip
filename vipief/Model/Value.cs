@@ -6,15 +6,18 @@ using System.Threading.Tasks;
 
 namespace vipief.Model
 {
-    public class Colour
+    public class Value
     {
-        public Colour(string name, string hexademical)
+        public Value(string name)
         {
             Name = name;
-            Hexademical = hexademical;
         }
 
         public string Name { get; set; }
-        public string Hexademical { get; set; }
+
+        public override string ToString()
+        {
+            return Name;
+        }
     }
 }

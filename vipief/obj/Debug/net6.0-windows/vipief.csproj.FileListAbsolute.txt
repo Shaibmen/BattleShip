@@ -37,7 +37,6 @@ D:\Projects\C#\vipief\vipief\obj\Debug\net6.0-windows\View\MainWindow.g.cs
 D:\Projects\C#\vipief\vipief\obj\Debug\net6.0-windows\App.g.cs
 D:\Projects\C#\vipief\vipief\obj\Debug\net6.0-windows\vipief_MarkupCompile.cache
 D:\Projects\C#\vipief\vipief\obj\Debug\net6.0-windows\vipief_MarkupCompile.lref
-D:\Projects\C#\vipief\vipief\obj\Debug\net6.0-windows\App.baml
 D:\Projects\C#\vipief\vipief\obj\Debug\net6.0-windows\View\MainWindow.baml
 D:\Projects\C#\vipief\vipief\obj\Debug\net6.0-windows\vipief.g.resources
 D:\Projects\C#\vipief\vipief\obj\Debug\net6.0-windows\vipief.GeneratedMSBuildEditorConfig.editorconfig
@@ -50,3 +49,8 @@ D:\Projects\C#\vipief\vipief\obj\Debug\net6.0-windows\refint\vipief.dll
 D:\Projects\C#\vipief\vipief\obj\Debug\net6.0-windows\vipief.pdb
 D:\Projects\C#\vipief\vipief\obj\Debug\net6.0-windows\vipief.genruntimeconfig.cache
 D:\Projects\C#\vipief\vipief\obj\Debug\net6.0-windows\ref\vipief.dll
+D:\Projects\C#\vipief\vipief\obj\Debug\net6.0-windows\vipief.sourcelink.json
+D:\Projects\C#\vipief\vipief\obj\Debug\net6.0-windows\View\FIRSTZAGLUSKA.g.cs
+D:\Projects\C#\vipief\vipief\obj\Debug\net6.0-windows\View\FIRSTZAGLUSKA.baml
+D:\Projects\C#\vipief\vipief\obj\Debug\net6.0-windows\View\SECONDZAGLUSHKA.g.cs
+D:\Projects\C#\vipief\vipief\obj\Debug\net6.0-windows\View\SECONDZAGLUSHKA.baml
